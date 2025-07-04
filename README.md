@@ -47,13 +47,8 @@ git commit -m "Initial deployment"
 git push heroku main
 ```
 
-### Option 2: Railway
 
-1. Connect your GitHub repository to Railway
-2. Set the `GOOGLE_API_KEY` environment variable in Railway dashboard
-3. Deploy automatically
-
-### Option 3: Render
+### Render
 
 1. Connect your GitHub repository to Render
 2. Set the `GOOGLE_API_KEY` environment variable
@@ -62,11 +57,6 @@ git push heroku main
    - Start Command: `uvicorn financial_advisor_chat:app --host=0.0.0.0 --port=$PORT`
 4. **Alternative**: Use the `render.yaml` file for automatic configuration
 
-### Option 4: DigitalOcean App Platform
-
-1. Connect your GitHub repository
-2. Set environment variables
-3. Deploy with the provided configuration
 
 ## API Endpoints
 
