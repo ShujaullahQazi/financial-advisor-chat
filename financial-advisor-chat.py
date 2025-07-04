@@ -14,7 +14,6 @@ except KeyError:
     exit()
 
 # --- THE AGENT'S "BRAIN" ---
-# Initialize the Generative Model. 'gemini-1.5-flash' is a great, versatile model.
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 app = FastAPI()
