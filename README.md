@@ -59,7 +59,8 @@ git push heroku main
 2. Set the `GOOGLE_API_KEY` environment variable
 3. Use the following settings:
    - Build Command: `pip install -r requirements.txt`
-   - Start Command: `uvicorn weather_agent:app --host=0.0.0.0 --port=$PORT`
+   - Start Command: `uvicorn financial_advisor_chat:app --host=0.0.0.0 --port=$PORT`
+4. **Alternative**: Use the `render.yaml` file for automatic configuration
 
 ### Option 4: DigitalOcean App Platform
 
