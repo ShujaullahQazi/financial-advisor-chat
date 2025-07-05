@@ -189,3 +189,8 @@ For issues, questions, or contributions:
 ---
 
 **Built with ❤️ using FastAPI, Google Gemini AI, and modern web technologies** 
+=======
+## Environment Variables
+
+- `GOOGLE_API_KEY`: Your Google Generative AI API key (required) 
+>>>>>>> 68862954a69d6ff6c159d666be529f90d0097dc2
