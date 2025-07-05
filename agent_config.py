@@ -143,7 +143,7 @@ UI_CONFIG = {
 # - "gemini-2.5-pro-exp" (Most capable, slower, better for complex reasoning)
 # - "gemini-2.0-flash-exp" (Fallback option if 2.5 not available)
 API_CONFIG = {
-    "model": "gemini-2.5-flash-exp",  # Using Gemini 2.5 Flash
+    "model": "gemini-2.5-flash",  # Using Gemini 2.5 Flash
     "max_tokens": 2048,
     "temperature": 0.7,
     "timeout_seconds": 30,

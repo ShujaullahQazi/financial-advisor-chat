@@ -71,4 +71,4 @@ model = genai.GenerativeModel(os.environ.get("GEMINI_MODEL", API_CONFIG["model"]
 4. **Testing**: Always test with your specific use case
 
 ## 🔧 **Current Setting**
-Your FinAI is currently configured to use: **`gemini-2.5-flash-exp`** 
+Your FinAI is currently configured to use: **`gemini-1.5-flash`** 

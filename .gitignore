@@ -3,7 +3,7 @@
 .env.local
 .env.production
 
-# API Keys (never commit these!)
+# API Keys
 *.key
 api_keys.txt
 
