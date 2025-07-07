@@ -2,6 +2,8 @@
 
 A sophisticated AI-powered financial advisor agent built with FastAPI and Google's Gemini AI. FinAI provides intelligent financial guidance, calculations, and educational content while maintaining ethical boundaries.
 
+[![Live on Render](https://img.shields.io/badge/Live-Render-green?style=for-the-badge)](https://your-app-name.onrender.com)
+
 ## ✨ Features
 
 ### 🧠 **Intelligent Agent Capabilities**
