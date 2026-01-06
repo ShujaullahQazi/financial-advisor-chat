@@ -4,11 +4,10 @@ Main application entry point.
 """
 
 import uvicorn
-from fastapi import FastAPI, WebSocket
+from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
 from .api.routes import router
-from .api.websocket import websocket_endpoint
 from .config.settings import settings
 from .utils.logger import logger
 
@@ -24,13 +23,6 @@ app.include_router(router)
 
 # Mount static files
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
-
-# WebSocket endpoint
-@app.websocket("/ws/{session_id}")
-async def websocket_route(websocket: WebSocket, session_id: str):
-    """WebSocket endpoint for real-time chat."""
-    await websocket_endpoint(websocket, session_id)
 
 
 @app.on_event("startup")
