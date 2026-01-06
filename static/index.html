@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FinAI - AI-powered financial advisor for calculations, education, and planning">
+    <title>FinAI - Financial Advisor AI Agent</title>
+    
+    <!-- External Dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Application Styles -->
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div id="chatbox">
+        <div class="header">
+            <h2>🤖 FinAI</h2>
+            <p>Your Intelligent Financial Advisor Agent</p>
+        </div>
+        
+        <div class="session-info" id="sessionInfo">
+            Session: <span id="sessionId">Initializing...</span>
+        </div>
+        
+        <div id="messages"></div>
+        
+        <div class="typing-indicator" id="typingIndicator">
+            <div class="typing-dots">
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+                <div class="typing-dot"></div>
+            </div>
+        </div>
+        
+        <div class="input-area">
+            <input id="input" type="text" placeholder="Ask me about finances, calculations, or financial planning..." autofocus />
+            <button id="send">Send</button>
+        </div>
+    </div>
+
+    <!-- Application Scripts -->
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
